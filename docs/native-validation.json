@@ -1,0 +1,105 @@
+{
+  "premiere": "26.0.1",
+  "cases": [
+    {
+      "case": "sequence settings",
+      "passed": true
+    },
+    {
+      "case": "linked AV movement",
+      "passed": true
+    },
+    {
+      "case": "gap-aware localized effect insertion",
+      "passed": true
+    },
+    {
+      "case": "strict FX/keyframe video clone",
+      "passed": true
+    },
+    {
+      "case": "linked AV clone",
+      "passed": true
+    },
+    {
+      "case": "appended tracks preserve indices",
+      "passed": true
+    },
+    {
+      "case": "audio placement",
+      "passed": true
+    },
+    {
+      "case": "video-only leaves all audio untouched",
+      "passed": true
+    },
+    {
+      "case": "audio-only leaves all video untouched",
+      "passed": true
+    },
+    {
+      "case": "shift dry run has no side effects",
+      "passed": true
+    },
+    {
+      "case": "shift apply",
+      "passed": true
+    },
+    {
+      "case": "failed move restores project",
+      "passed": true
+    },
+    {
+      "case": "multi-action rollback",
+      "passed": true
+    },
+    {
+      "case": "structured unicode/control characters",
+      "passed": true
+    },
+    {
+      "case": "PNG preview",
+      "passed": true
+    },
+    {
+      "case": "registered captions import and shifted export",
+      "passed": true
+    },
+    {
+      "case": "atomic linked group move",
+      "passed": true
+    },
+    {
+      "case": "markers follow timeline shift",
+      "passed": true
+    },
+    {
+      "case": "trimmed-source placement",
+      "passed": true
+    },
+    {
+      "case": "video edge transition copy",
+      "passed": true
+    },
+    {
+      "case": "audio edge transition copy",
+      "passed": true
+    },
+    {
+      "case": "clip-relative keys include source in point",
+      "passed": true
+    },
+    {
+      "case": "photo wall recipe",
+      "passed": true
+    },
+    {
+      "case": "page fan recipe",
+      "passed": true
+    },
+    {
+      "case": "direct sequence export",
+      "passed": true
+    }
+  ]
+}

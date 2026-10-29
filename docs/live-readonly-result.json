@@ -1,0 +1,11 @@
+{
+  "timeline_name": "no sequence required",
+  "duration": 0,
+  "capabilities": {
+    "premiere": "26.0.1",
+    "qe": true,
+    "sequenceCount": 0,
+    "exportDirect": false,
+    "captionAPI": false
+  }
+}
