@@ -6,6 +6,7 @@ name = "premiere-controller"
 version = "0.2.0"
 description = "Local Windows automation for Adobe Premiere Pro"
 requires-python = ">=3.10"
+license = {file = "LICENSE"}
 [project.optional-dependencies]
 visual = ["Pillow>=10", "pypdfium2>=4"]
 [project.scripts]

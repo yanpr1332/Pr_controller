@@ -75,4 +75,4 @@ python tools/native_smoke.py --runtime runtime-v2 --workspace runtime-v2/native-
 
 原生测试只允许关闭生产工程后，在指定测试目录创建新工程；使用合成视频和静音音轨。CI 运行不依赖 Adobe 的离线测试。实际结果见 [docs/VALIDATION.md](docs/VALIDATION.md)，全部功能对应清单见 [docs/FEATURE_MATRIX.md](docs/FEATURE_MATRIX.md)。历史实现验证记录在 docs/legacy-validation.md。
 
-本仓库不包含 Adobe 软件、商业插件、用户工程和录音。开源许可证尚待所有者选择；当前没有授予额外开源许可。
+本仓库不包含 Adobe 软件、商业插件、用户工程和录音。本项目采用 [MIT License](LICENSE)。Adobe 软件和第三方依赖分别遵循各自的许可条款。
