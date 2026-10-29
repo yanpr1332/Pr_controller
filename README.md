@@ -1,5 +1,7 @@
 # Premiere Controller
 
+中文 | [English](README_EN.md)
+
 Windows 本机 Premiere Pro 自动化控制器。代码、桥接、示例、测试与文档全部独立于 Adobe 安装文件。当前版本 0.2.0，原生验证环境为 Premiere Pro **26.0.1**；其他版本先运行能力检查和隔离测试。
 
 ## 环境与安装
@@ -13,7 +15,7 @@ pr-controller doctor
 pr-controller install
 ```
 
-安装是显式操作，会将桥接入口写入 Premiere 的 Startup 目录；构造 Python 对象不会修改 Adobe 安装目录。安装后保存并重开 PR。原来的 99_chatgpt_controller_runner.jsx 可保留，新版使用独立任务文件和桥接入口，不强制结束 PR。
+安装是显式操作，会将桥接入口写入 Premiere 的 Startup 目录；构造 Python 对象不会修改 Adobe 安装目录。安装后保存并重开 PR。新版使用独立任务文件和桥接入口，不强制结束 PR。本机已停用旧版启动桥，清理后的目录与历史素材位置见 [本机目录说明](docs/LOCAL_LAYOUT.md)。
 
 默认运行目录为用户 AppData/Local/PrController/runtime，可用 **PR_CONTROLLER_RUNTIME** 或 `Config(runtime=...)` 指定。当前这台机器的开发验证安装使用仓库下 **runtime-v2**；连接这个实例时使用相同配置。移动仓库后重新执行 install，以更新入口中的源码位置。
 
